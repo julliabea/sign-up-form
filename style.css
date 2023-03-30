@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif 
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    background-color: white;    
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 22px;
+    box-shadow:  19px 19px 38px #2e3855, -19px -19px 38px #748ed5;
+    border: 2px solid white;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #4389A2, #7139a1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #4389A2, #7139a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.form{
+    padding: 18px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-content input{
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.form-content a{
+    font-size: 18px;
+    bottom: -6px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+.form button{
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #4389A2, #7139a1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #4389A2, #7139a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-top: 14px;
+    color: white;
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+.form button:active {
+    transform: translateY(2px);
+}
+
+.form-content.error input{
+    border-color: rgb(214, 15, 15);
+}
+
+.form-content.error a{
+    color: rgb(214, 15, 15);
+    visibility: visible;
+}
