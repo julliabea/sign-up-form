@@ -5,8 +5,8 @@ Projeto formulário de cadastro com validações para verificar se o usuário po
 Clique para acessar: [Formulário](https://julliabea.github.io/sign-up-form/)
 
 <div>
-  <img height="350em" src="https://user-images.githubusercontent.com/109460961/228968380-41c30756-9a94-4992-b059-3a93e78d9fb0.png"/>
-  <img height="350em" src="https://user-images.githubusercontent.com/109460961/228968385-78466c62-5d1c-4ca0-a438-1346e0417368.png"/>
+  <img height="380em" src="https://user-images.githubusercontent.com/109460961/228968380-41c30756-9a94-4992-b059-3a93e78d9fb0.png"/>
+  <img height="380em" src="https://user-images.githubusercontent.com/109460961/228968385-78466c62-5d1c-4ca0-a438-1346e0417368.png"/>
 </div>
 
 
